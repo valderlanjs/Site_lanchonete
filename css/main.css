@@ -14,18 +14,22 @@
     --color-black-heavy: #000000;
     --color-text: #4f4f4f;
     --color-text-out: #90908e;
-    --color-primary: #ffbf00;
+    --color-primary: #135a42;
     --color-secondary: #fff2cc;
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
     --color-separate: #cccccc;
+    --bg-color: #cad3d5
 }
 
-
+* {
+    scroll-behavior: smooth;
+}
 html, body {
+    
     font-family: 'PoppinsRegular', 'Rubik', sans-serif;
-    background-color: var(--color-background);
+    background-color: var(--bg-color);
     color: var(--color-text);
 }
 
@@ -33,6 +37,87 @@ b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
 
+.container {
+    width: 100%!important;
+}
+
+.container nav {
+    width: 100%!important;
+}
+
+
+.collapse{
+    width: 100%!important;
+    margin-right: -350px;
+    
+}
+
+.logo-jean {
+    font-size: 24px;
+    color: #363435;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: default;
+}
+
+.btn-orcamento {
+    background-color: #135a42;
+    border-radius: 20px;
+    color: #fdfdfd!important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid #135a42;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    transition: 0.5s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-orcamento:hover {
+    background-color: #fff;
+    border: 1px solid #0d3b2a;
+    text-decoration: none;
+    color: #0d3b2a!important;
+    font-weight: bold;
+    scale: 1.1;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+
+}
+.text-banner {
+    margin-top: 50px;
+}
+
+.text-banner h1 {
+    font-size: 40px!important;
+}
+
+.text-banner p {
+    width: 400px!important;
+    font-size: 30px!important;
+}
+
+.img-banner img {
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
 .hidden {
     display: none!important;
 }
@@ -227,7 +312,7 @@ a.navbar-brand {
     left: 0;
     right: 0;
     height: 500px;
-    background-image: url(../img/bg-icons-2.png);
+    
 }
 
 .cardapio {
@@ -240,7 +325,7 @@ a.navbar-brand {
     left: 0;
     right: 0;
     height: 500px;
-    background-image: url(../img/bg-icons-1.png);
+   
 }
 
 .container-menu {

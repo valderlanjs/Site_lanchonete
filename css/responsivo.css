@@ -1,7 +1,10 @@
 
 /* Desktop (col-lg) 992px+ */
 @media (min-width: 992px) {
-
+    .collapse {
+        margin-left: 0px!important;
+    
+    }
 }
 
 /* Desktop e Tablets (col-md) 768px a 991px */

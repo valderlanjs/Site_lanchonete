@@ -1,3 +1,11 @@
+//FUNÇÃO PARA WHATSAPP 
+function sendMessage(phone) {
+    let message = "Olá, vim pele seu site e gostaria de fazer um orçamento.";
+    let url = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+    window.open(url, '_blank');
+}
+
+
 $(document).ready(function () {
     cardapio.eventos.init();
 })
