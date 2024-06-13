@@ -12,21 +12,21 @@ var MENU = {
             "img": "./img/cardapio/churrasco/carolina-bbq-oink-sampler.1340b5a10cedc238cb2280306dd1d5a5.jpg",
             "name": "Kings BBQ",
             "dsc": "Carolina BBQ Oink Sampler",
-            "price": 89.99
+            "price": 89
         },
         {
             "id": "texas-monthlys-1-bbq-brisket",
             "img": "./img/cardapio/churrasco/texas-monthlys-1-bbq-brisket.1006a061be7acae03992e420fbca995a.jpg",
             "name": "Snow's BBQ",
             "dsc": "Texas Monthly's #1 BBQ Brisket",
-            "price": 199.99
+            "price": 199
         },
         {
             "id": "whole-brisket-texas-bbq-sauce",
             "img": "./img/cardapio/churrasco/whole-brisket-texas-barbecue-bbq-sauce.e07ee4818b20ed43d217bf67fedd41ce.jpg",
             "name": "Franklin Barbecue",
             "dsc": "Whole Brisket + Texas Barbecue BBQ Sauce",
-            "price": 249.99
+            "price": 249
         },
         {
             "id": "whole-texas-smoked-brisket",
@@ -91,7 +91,7 @@ var MENU = {
             "img": "./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg",
             "name": "Gramercy Tavern",
             "dsc": "The Gramercy Tavern Burger - 4 Pack",
-            "price": 99.99
+            "price": 99
         },
         {
             "id": "shake-shack-shackburger-8-pack",
