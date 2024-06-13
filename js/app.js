@@ -51,7 +51,7 @@ cardapio.metodos = {
             .replace(/\${id}/g, e.id)
 
             // botão ver mais foi clicado (12 itens)
-            if (vermais && i >= 8 && i < 12) {
+            if (vermais && i >= 8 && i < 22) {
                 $("#itensCardapio").append(temp)
             }
 
@@ -75,6 +75,7 @@ cardapio.metodos = {
 
         var ativo = $(".container-menu a.active").attr('id').split('menu-')[1];
         cardapio.metodos.obterItensCardapio(ativo, true);
+        
 
         $("#btnVerMais").addClass('hidden');
 
@@ -592,7 +593,10 @@ cardapio.templates = {
                 <p class="title-produto text-center mt-4">
                     <b>\${nome}</b>
                 </p>
-                <p class="price-produto text-center">
+                <p class='saibaMais' onclick="sendMessage('+558298295404')">
+                    Saiba Mais
+                </p>
+               <!-- <p class="price-produto text-center">
                     <b>R$ \${preco}</b>
                 </p>
                 <div class="add-carrinho">
@@ -600,7 +604,7 @@ cardapio.templates = {
                     <span class="add-numero-itens" id="qntd-\${id}">0</span>
                     <span class="btn-mais" onclick="cardapio.metodos.aumentarQuantidade('\${id}')"><i class="fas fa-plus"></i></span>
                     <span class="btn btn-add" onclick="cardapio.metodos.adicionarAoCarrinho('\${id}')"><i class="fa fa-shopping-bag"></i></span>
-                </div>
+                </div>-->
             </div>
         </div>
     `,
@@ -612,14 +616,14 @@ cardapio.templates = {
             </div>
             <div class="dados-produto">
                 <p class="title-produto"><b>\${nome}</b></p>
-                <p class="price-produto"><b>R$ \${preco}</b></p>
+                <!--<p class="price-produto"><b>R$ \${preco}</b></p>
             </div>
             <div class="add-carrinho">
                 <span class="btn-menos" onclick="cardapio.metodos.diminuirQuantidadeCarrinho('\${id}')"><i class="fas fa-minus"></i></span>
                 <span class="add-numero-itens" id="qntd-carrinho-\${id}">\${qntd}</span>
                 <span class="btn-mais" onclick="cardapio.metodos.aumentarQuantidadeCarrinho('\${id}')"><i class="fas fa-plus"></i></span>
                 <span class="btn btn-remove no-mobile" onclick="cardapio.metodos.removerItemCarrinho('\${id}')"><i class="fa fa-times"></i></span>
-            </div>
+            </div>-->
         </div>
     `,
 
