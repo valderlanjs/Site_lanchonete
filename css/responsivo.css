@@ -1,6 +1,6 @@
 
 /* Desktop (col-lg) 992px+ */
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     .img-banner {
         display: none!important;
     }
@@ -24,7 +24,7 @@
         .servicos .container .row h1 {
             width: 100%!important;
         }
-}
+}*/
 /* Desktop e Tablets (col-md) 768px a 991px */
 @media (min-width: 768px) and (max-width: 991px) {
     
