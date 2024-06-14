@@ -98,6 +98,7 @@ b {
     z-index: 100;
 
 }
+
 .text-banner {
     margin-top: 50px;
 }
@@ -596,6 +597,7 @@ a.navbar-brand {
     margin-bottom: 15px;
 }
 
+/*FOOTER*/
 .container-logo-footer {
     flex-direction: column;
 }
