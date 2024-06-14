@@ -68,7 +68,7 @@ b {
     justify-content: space-around;
     align-items: center;
     width: 150px;
-    height: 30px;
+    height: 40px;
     margin-top: 5px;
     border: 1px solid #135a42;
     box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
@@ -371,7 +371,16 @@ a.navbar-brand {
     cursor: pointer;
     text-align: center;
     margin-left: 40px;
+    transition: 0.5s ease;
+    border: 1px solid var(--color-primary);
 
+}
+
+
+.card-item .saibaMais:hover {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    scale: 1.1;
 
 }
 
@@ -451,6 +460,43 @@ a.navbar-brand {
 .marcasTitle {
     text-align: center;
 }
+.logo-marcas img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.logo-marcas {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#brasilit {
+    margin-top: 35px;
+    height: 40px;
+}
+
+#pado {
+    height: 50px;
+    margin-top: 20px;
+}
+
+#montana {
+    height: 40px;
+    margin-top: 35px;
+}
+
+#plastbind {
+    height: 40px;
+    margin-top: 30px;
+}
+
+#iquine {
+    height: 40px;
+    margin-top: 30px;
+}
 
 .contate {
     color: var(--color-primary);
@@ -528,6 +574,68 @@ a.navbar-brand {
 .contact .email {
     font-size: 15px;
     font-style: italic;
+}
+
+.localization-title {
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 45px;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.container-logo-footer {
+    flex-direction: column;
+}
+
+.container-logo-footer p {
+    font-size: 12px;
+}
+
+.container-logo-footer .footer-whats {
+    margin-bottom: 5px;
+    width: 320px;
+}
+
+.container-logo-footer .footer-whats i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.container-logo-footer .footer-insta {
+    margin-bottom: 5px;
+    width: 320px;
+}
+
+.container-logo-footer .footer-insta i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.container-logo-footer .footer-email {
+    margin-bottom: 5px;
+    width: 320px;
+}
+
+.container-logo-footer .footer-email i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #fff!important;
 }
 /*
 .card-depoimentos {
